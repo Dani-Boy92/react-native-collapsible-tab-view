@@ -1,4 +1,5 @@
-import { FlatList, Platform, SectionList, I18nManager } from 'react-native'
+import { Platform, SectionList, I18nManager } from 'react-native'
+import { FlatList } from 'react-native-gesture-handler'
 import Animated, { scrollTo } from 'react-native-reanimated'
 
 import { Ref, RefComponent } from './types'
